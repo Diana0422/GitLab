@@ -5,7 +5,7 @@ public class HelloWorld {
 
 	public static void main(String[] args) {
 		Logger.getGlobal().log(Level.INFO, "Starting main...");
-		System.out.println("Hello World!");
+		Logger.getGlobal().log(Level.INFO, "Hello World!");
 		System.out.println("Shutting main...");
 	}
 }
