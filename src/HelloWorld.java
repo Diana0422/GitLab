@@ -6,6 +6,6 @@ public class HelloWorld {
 	public static void main(String[] args) {
 		Logger.getGlobal().log(Level.INFO, "Starting main...");
 		Logger.getGlobal().log(Level.INFO, "Hello World!");
-		System.out.println("Shutting main...");
+		Logger.getGlobal().log(Level.INFO, "Shutting main...");
 	}
 }
