@@ -1,8 +1,10 @@
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class HelloWorld {
 
 	public static void main(String[] args) {
-		System.out.println("Starting main...");
+		Logger.getGlobal().log(Level.INFO, "Starting main...");
 		System.out.println("Hello World!");
 		System.out.println("Shutting main...");
 	}
